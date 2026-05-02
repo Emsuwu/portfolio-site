@@ -1,0 +1,112 @@
+.body-container{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 12px;
+    border-color: greenyellow;
+    border-width: 3px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.header-bar{
+    left: 0;
+    top: 0;
+    right: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-color: greenyellow;
+    border-width: 3px;
+    border-radius: 6px;
+    border-style: solid;
+    flex-direction: row;
+    text-align: center;
+}
+
+.header-title{
+    padding-left: 10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    color:white;
+    font-family: "Roboto Mono", monospace;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-color: greenyellow;
+    border-width: 3px;
+    border-radius: 6px;
+    border-style: solid;
+    width: 340px;
+}
+.game-thumbnail{
+    margin-top: 12px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgb(37, 37, 37);
+}
+.game-container p{
+    width:270px;
+    padding-top:0px;
+    margin-top:0px;
+}
+.game-title-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-title-container img{
+    width: 30px;
+    padding-top:0px;
+    padding-right: 12px;
+    height: auto;
+}
+.game-button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width:270px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+}
+.game-button-container button{
+    margin-bottom: 12px;
+    width: fit-content;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    border-style: solid;
+    border-color: greenyellow;
+    transition-duration: 0.2s;
+    border-radius: 6px;
+    justify-content: top;
+    align-items: left;
+    flex-direction: column;
+    border-width: 1px;
+}
+.game-button-container button:hover{
+    background-color: greenyellow;
+    color: black;
+    border-color: black;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.horizontal-games-container{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
