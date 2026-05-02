@@ -5,33 +5,62 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 12px;
-    border-color: greenyellow;
-    border-width: 3px;
-    border-radius: 5px;
-    border-style: solid;
 }
 .header-bar{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 400;
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
     left: 0;
     top: 0;
     right: 0;
     padding-top: 6px;
     padding-bottom: 6px;
-    border-color: greenyellow;
-    border-width: 3px;
-    border-radius: 6px;
-    border-style: solid;
+    background-color: white ;
     flex-direction: row;
     text-align: center;
+    border-top-style: none;
+}
+
+.header-bar button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    background-color: rgb(194, 23, 131);
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Mono", monospace;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+    border-radius: 6px;
+    justify-content: top;
+    align-items: left;
+    flex-direction: column;
+    border-width: 2px;
+}
+.header-bar button:hover{
+    background-color: rgb(255, 20, 204);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+    cursor: pointer;
 }
 
 .header-title{
     padding-left: 10px;
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 body{
-    color:white;
+    margin-top: 48px;
+    color:rgb(0, 0, 0);
     font-family: "Roboto Mono", monospace;
 }
 
@@ -40,17 +69,24 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-color: greenyellow;
-    border-width: 3px;
-    border-radius: 6px;
+    border-color: rgb(255, 255, 255);
+    background-color:rgb(255, 140, 221);
+    border-width: 1px;
+    border-radius: 3px;
     border-style: solid;
     width: 340px;
 }
 .game-thumbnail{
-    margin-top: 12px;
+    margin-top: 16px;
+    border-radius: 12px;
+}
+.game-thumbnail img{
+    width: 300px;
+    height: auto;
     border-radius: 6px;
+    border-width: 1px;
     border-style: solid;
-    border-color: rgb(37, 37, 37);
+    border-color: rgb(255, 255, 255);
 }
 .game-container p{
     width:270px;
@@ -83,22 +119,22 @@ body{
     margin-bottom: 12px;
     width: fit-content;
     height: 30px;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "Roboto Mono", monospace;
     border-style: solid;
-    border-color: greenyellow;
+    border-color: rgb(0, 0, 0);
     transition-duration: 0.2s;
-    border-radius: 6px;
+    border-radius: 0px;
     justify-content: top;
     align-items: left;
     flex-direction: column;
     border-width: 1px;
 }
 .game-button-container button:hover{
-    background-color: greenyellow;
-    color: black;
-    border-color: black;
+    background-color: rgb(255, 20, 204);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
     transition-duration: 0.2s;
     cursor: pointer;
 }

@@ -1,0 +1,60 @@
+.about-container-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.about-container{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 3px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    width: fit-content;
+    background-color: rgb(255, 140, 221);   
+}
+.about-container-adjacent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-description{
+    width: 400px;
+}
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-right: 24px;
+}
+.about-button{
+    margin-bottom: 12px;
+    width: fit-content;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Mono", monospace;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    transition-duration: 0.2s;
+    border-radius: 0px;
+    justify-content: top;
+    align-items: left;
+    flex-direction: column;
+    border-width: 1px;
+}
+.about-button:hover{
+    background-color: rgb(255, 20, 204);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
