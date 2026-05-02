@@ -27,7 +27,7 @@
     justify-content: center;
 }
 .about-description{
-    width: 400px;
+    width: 800px;
 }
 .profile-pic{
     width: 200px;
@@ -57,4 +57,20 @@
     border-color: rgb(255, 255, 255);
     transition-duration: 0.2s;
     cursor: pointer;
+}
+.skill-icon{
+    width: 30px;
+    height: auto;
+    padding-left: 12px;
+}
+.skill-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-top: 0px;
+
+}
+.skill-box p{
+    font-weight: 600;
 }
