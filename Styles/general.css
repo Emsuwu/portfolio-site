@@ -79,6 +79,7 @@ body{
 .game-thumbnail{
     margin-top: 16px;
     border-radius: 12px;
+    
 }
 .game-thumbnail img{
     width: 300px;
@@ -92,6 +93,7 @@ body{
     width:270px;
     padding-top:0px;
     margin-top:0px;
+    flex-grow: 1;
 }
 .game-title-container{
     display: flex;
@@ -139,10 +141,15 @@ body{
     cursor: pointer;
 }
 .horizontal-games-container{
-    margin-top: 12px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: top;
     justify-content: center;
-    gap: 30px;
+    margin-top: 15px;
+    gap: 15px;
+    width: fit-content;
+}
+.projects-title{
+    color: #FFFFFF;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.52);
 }
