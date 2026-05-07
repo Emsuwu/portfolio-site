@@ -29,20 +29,23 @@
 }
 
 .header-bar button{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: fit-content;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: fit-content;
+    border-width: 2px;
+    border-radius: 6px;
     background-color: rgb(194, 23, 131);
     color: rgb(255, 255, 255);
-    font-family: "Roboto Mono", monospace;
-    border-style: solid;
     border-color: rgb(255, 255, 255);
+    border-style: solid;
+    font-family: "Roboto Mono", monospace;
     transition-duration: 0.2s;
-    border-radius: 6px;
-    justify-content: top;
-    align-items: left;
-    flex-direction: column;
-    border-width: 2px;
+    vertical-align: middle;
 }
 .header-bar button:hover{
     background-color: rgb(255, 20, 204);
@@ -50,6 +53,10 @@
     border-color: rgb(255, 255, 255);
     transition-duration: 0.2s;
     cursor: pointer;
+}
+.header-external-link{
+    width:16px;
+    padding: 0;
 }
 
 .header-title{
