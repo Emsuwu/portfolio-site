@@ -64,7 +64,7 @@
 .mobile-header-title-text{
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 30px;
+    font-size: 45px;
     color: rgb(0, 0, 0);
     display: none;
 }
@@ -82,7 +82,6 @@
     flex-direction: row;
     text-align: center;
     border-top-style: none;
-    border-bottom-left-radius: 0px;
     justify-content: space-between;
 }
 .mobile-menu-button{
@@ -92,13 +91,13 @@
     cursor: pointer;
 }
 .mobile-menu-button img{
-    width: 50px;
+    width: 100px;
     padding: 8px;
 }
 @media only screen and (max-width: 1000px) 
 {
     body{
-        margin-top: 75px;
+        margin-top: 130px;
     }
     .mobile-header-title-text{
         display: flex;
