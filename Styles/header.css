@@ -64,7 +64,7 @@
 .mobile-header-title-text{
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 45px;
+    font-size: 25px;
     color: rgb(0, 0, 0);
     display: none;
 }
@@ -74,7 +74,6 @@
     padding-top: 6px;
     padding-bottom: 6px;
     font-weight: 400;
-    font-size: 20px;
     position: fixed;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -91,7 +90,7 @@
     cursor: pointer;
 }
 .mobile-menu-button img{
-    width: 100px;
+    width: 40px;
     padding: 8px;
     anchor-name: --hamburger;
 }
