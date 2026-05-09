@@ -159,6 +159,7 @@ body{
     margin-top: 15px;
     gap: 15px;
     width: fit-content;
+    flex-wrap: wrap;
 }
 .projects-title{
     color: #FFFFFF;
