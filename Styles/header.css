@@ -97,7 +97,7 @@
 .mobile-menu-popover{
     padding:0px;
     position: fixed;
-    width:65%;
+    width:85%;
     flex-direction: column;
     background-color: rgb(200, 35, 190);
     border-style: solid;
