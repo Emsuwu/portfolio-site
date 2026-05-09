@@ -1,3 +1,9 @@
+body{
+    margin-top: 48px;
+    color:rgb(0, 0, 0);
+    font-family: "Roboto Mono", monospace;
+}
+
 .body-container{
     margin-top: 12px;
     display: flex;
@@ -77,26 +83,27 @@
     .header-title-text-alternate{
         display: contents;
     }
-
-
 }
 @media only screen and (max-width: 800px) {
     .header-title-text-alternate{
         display: none;
     }
-        .header-bar button{
+    .header-bar button{
         height:60px;
         padding-left: 10px;
         padding-right: 10px;
         font-size: 20px;
     }
+    body{
+        margin-top: 75px;
+    }
+}
+@media only screen and (max-width: 600px){
+    body{
+        margin-top: 135px;
+    }  
 }
 
-body{
-    margin-top: 48px;
-    color:rgb(0, 0, 0);
-    font-family: "Roboto Mono", monospace;
-}
 
 .game-container{
     display: flex;
