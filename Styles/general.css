@@ -84,26 +84,11 @@ body{
         display: contents;
     }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .header-title-text-alternate{
         display: none;
     }
-    .header-bar button{
-        height:60px;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 20px;
-    }
-    body{
-        margin-top: 75px;
-    }
 }
-@media only screen and (max-width: 600px){
-    body{
-        margin-top: 135px;
-    }  
-}
-
 
 .game-container{
     display: flex;
