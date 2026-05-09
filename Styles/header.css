@@ -100,15 +100,17 @@
     position: fixed;
     width:65%;
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
-    border-style: none;
+    background-color: rgb(200, 35, 190);
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
     border-radius: 8px;
 }
 .mobile-menu-popover button{
     font-size: 60px;
-    color: white;
+    color: rgb(255, 255, 255);
     border-style: none;
-    background-color: black;
+    background-color: rgb(200, 35, 190);
     transition-duration: 0.2s;
     width: 100%;
     padding-left:12px;
@@ -119,7 +121,7 @@
     font-size: 60px;
     color: white;
     border-style: none;
-    background-color: rgb(62, 62, 62);
+    background-color: rgb(255, 74, 243);
 }
 .mobile-menu-popover button img{
     font-size: 60px;
