@@ -93,6 +93,37 @@
 .mobile-menu-button img{
     width: 100px;
     padding: 8px;
+    anchor-name: --hamburger;
+}
+.mobile-menu-popover{
+    padding:0px;
+    position: fixed;
+    width:100%;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    border-style: none;
+}
+.mobile-menu-popover button{
+    font-size: 60px;
+    color: white;
+    border-style: none;
+    background-color: black;
+    transition-duration: 0.2s;
+    width: 100%;
+    padding-left:12px;
+    padding-right:12px;
+    cursor: pointer;
+}
+.mobile-menu-popover button:hover{
+    font-size: 60px;
+    color: white;
+    border-style: none;
+    background-color: rgb(62, 62, 62);
+}
+.mobile-menu-popover button img{
+    font-size: 60px;
+    border-style: none;
+    width:40px;
 }
 @media only screen and (max-width: 1000px) 
 {

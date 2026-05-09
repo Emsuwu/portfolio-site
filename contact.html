@@ -12,8 +12,7 @@
 <body style="background: #E62582;
 background: radial-gradient(circle, rgba(230, 37, 130, 1) 0%, rgba(192, 35, 207, 1) 100%);">
     <header>
-        <div class="header-bar">
-            
+        <div class="header-bar">   
             <div class="header-title">
                 <span class="header-title-text">emsGames | Emily Raine Robson (Game Developer) |</span>
                 <span class="header-title-text-alternate">Emily Robson |</span>
@@ -21,10 +20,25 @@ background: radial-gradient(circle, rgba(230, 37, 130, 1) 0%, rgba(192, 35, 207,
                 <a href="projects.html"><button>Projects</button></a>
                 <a href="contact.html"><button>Contact</button></a>
                 <a href="blog.html"><button>Blog</button></a>
-                <a href="https://pilcro.itch.io/" target="_blank"><button><img src="Images/ExternalLink.png" class="header-external-link">Itch.io</button></a>           </div>
-
+                <a href="https://pilcro.itch.io/" target="_blank"><button><img src="Images/ExternalLink.png" class="header-external-link">Itch.io</button></a>
+            </div>
         </div>
 
+        <div class="mobile-menu">
+            <button class="mobile-menu-button" popovertarget="mobile-menu-popover">
+                <img src="Icons/Menu.svg">
+            </button>
+            <span class="mobile-header-title-text">Emily Raine Robson</span>
+    
+        </div>
+
+        <div id="mobile-menu-popover" class="mobile-menu-popover" popover>
+            <a href="about.html"><button>About Me</button></a><br>
+            <a href="projects.html"><button>Projects</button></a><br>
+            <a href="contact.html"><button>Contact</button></a><br>
+            <a href="blog.html"><button>Blog</button></a><br>
+            <a href="https://pilcro.itch.io/" target="_blank"><button><img src="Images/ExternalLink.png" class="header-external-link">Itch.io</button></a>
+        </div>
 
     </header>
 
