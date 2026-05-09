@@ -1,0 +1,31 @@
+.blog-iframe{
+    border-style: solid;
+    width:1000px; 
+    height: 700px; 
+    overflow: auto;
+    border-radius: 12px;
+}
+@media only screen and (max-width: 1000px) 
+{
+   .blog-iframe{
+    width:800px; 
+    } 
+}
+@media only screen and (max-width: 800px) 
+{
+   .blog-iframe{
+    width:900px; 
+    } 
+}
+@media only screen and (max-width: 600px) 
+{
+   .blog-iframe{
+    width:500px; 
+    } 
+}
+@media only screen and (max-width: 500px) 
+{
+   .blog-iframe{
+    width:400px; 
+    } 
+}
